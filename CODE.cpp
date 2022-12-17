@@ -62,7 +62,7 @@ int main ()
     int sol=0;
     InitializareTabla(tabla);
     fct(tabla,lin,sol);
-
     cout<<sol;
+    return 0;
     
 }
