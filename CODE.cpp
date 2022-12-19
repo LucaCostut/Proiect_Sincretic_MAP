@@ -33,7 +33,8 @@ void fct(int tabla[linMax][colMax],int lin,int &sol)
 {
     if(lin==linMax)
     {
-        Afisare(tabla); //Se apeleaza functia de afisare a tablei atunci cand toate cele 8 ture au fost amplasate
+        /*Afisare(tabla); -- Am comentat aceasta linie pentru ca sa nu se mai afiseze toate posibilitatile de a pune turele si ca sa returneze direct numarul de solutii */
+                             //Se apeleaza functia de afisare a tablei atunci cand toate cele 8 ture au fost amplasate
         sol++; //Se incrementeaza numarul de solutii     
     }
     else
@@ -62,7 +63,7 @@ int main ()
     int sol=0;
     InitializareTabla(tabla);
     fct(tabla,lin,sol);
-    cout<<sol;
+    cout<<"Numarul final de solutii pentru "<<linMax<<" linii"<<"si "<<colMax<<" coloane este:"<< sol;
     return 0;
     
 }
