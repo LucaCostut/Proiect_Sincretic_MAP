@@ -1,6 +1,4 @@
-# Proiect_Sincretic_MAP
-#  Proiect Sincretic MAP-anul 2-sem.1
-
+# Proiect Sincretic la Metode Avansate de Programare
 
 Salut,
 
