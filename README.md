@@ -8,7 +8,7 @@ Acesta va fi proiectul meu sincretic pentru semestrul 1 la disciplina optionala 
 
 
 
-# # Documentatie:
+# Documentatie:
 
 
 Problema cu N-Ture:
