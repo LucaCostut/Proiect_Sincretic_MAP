@@ -22,12 +22,12 @@ O soluție validă este aceea în care ture nu sunt în aceeași linie sau aceea
 Eu am rezolvat problema folosind backtracking,dar se poate rezolva în mai multe feluri.
 Iată un plan al unui algoritm posibil pentru a rezolva problema:
 
-# 1.Începeți cu prima linie a tabloului de șah.
-# 2.Încercați să plasați o tură în prima coloană.
-# 3.Verificați dacă plasarea turei este validă (adică nu există alte ture în aceeași linie sau coloană).
-# 4.Dacă plasarea este validă, treceți la următoarea linie.
-# 5.Dacă plasarea nu este validă, încercați următoarea coloană din linia curentă.
-# 6.Repetați pașii 3-5 pentru toate linile.
-# 7.Dacă toate N ture sunt plasate cu succes, soluția este găsită.
-# 8.Dacă nu este posibil să se plaseze toate N ture, reveniți la linia anterioară și încercați o plasare diferită pentru tură în acea linie.
+1.Începeți cu prima linie a tabloului de șah.
+2.Încercați să plasați o tură în prima coloană.
+3.Verificați dacă plasarea turei este validă (adică nu există alte ture în aceeași linie sau coloană).
+4.Dacă plasarea este validă, treceți la următoarea linie.
+5.Dacă plasarea nu este validă, încercați următoarea coloană din linia curentă.
+6.Repetați pașii 3-5 pentru toate linile.
+7.Dacă toate N ture sunt plasate cu succes, soluția este găsită.
+8.Dacă nu este posibil să se plaseze toate N ture, reveniți la linia anterioară și încercați o plasare diferită pentru tură în acea linie.
 Acesta este doar un plan general, și există diferite modalități de a implementa acest algoritm în cod, inclusiv utilizarea funcției recursive, și de a menține piste de linii și coloane ocupate într-o structură de date separată (cum ar fi un set sau un array) pentru a verifica validitatea plasării mai repede.
