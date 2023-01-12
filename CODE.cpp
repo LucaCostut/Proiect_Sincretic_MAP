@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 #define linMax 8
 #define colMax 8
 //Functia de initializare cu 0 pe toate pozitiile.
@@ -27,8 +26,6 @@ void Afisare(int tabla[linMax][colMax])
     }
     cout<<"\n<------------------>\n\n";
 }
-
-
 void fct(int tabla[linMax][colMax],int lin,int &sol)
 {
     if(lin==linMax)
@@ -54,7 +51,6 @@ void fct(int tabla[linMax][colMax],int lin,int &sol)
             }
     }
 }
-
 int main ()
 {
 
